@@ -1,0 +1,44 @@
+{
+  "name": "agentskill-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for agentskill.sh — search, discover, and install AI agent skills",
+  "type": "module",
+  "bin": {
+    "agentskill-mcp": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agent",
+    "skills",
+    "claude",
+    "cursor",
+    "copilot",
+    "windsurf",
+    "codex"
+  ],
+  "author": "agentskill.sh",
+  "license": "MIT",
+  "homepage": "https://agentskill.sh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agentskill-sh/mcp-server"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
