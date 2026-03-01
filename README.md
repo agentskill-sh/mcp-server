@@ -2,6 +2,10 @@
 
 MCP server for [agentskill.sh](https://agentskill.sh) — search, discover, and install AI agent skills from the largest skills directory (44k+ skills).
 
+<a href="https://glama.ai/mcp/servers/@agentskill-sh/agentskill-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@agentskill-sh/agentskill-mcp/badge" alt="agentskill-mcp MCP server" />
+</a>
+
 ## Tools
 
 | Tool | Description |
